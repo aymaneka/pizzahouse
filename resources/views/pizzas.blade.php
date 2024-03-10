@@ -11,22 +11,22 @@
             margin: 0;
             padding: 0;
             background-image: url('./img/serveur-pizzeria-local-transportant-pizzas-plateau-bois-aux-clients-vieille-pizzeria-rue-italienne.jpg');
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat; /* No repeat */
+            background-size: cover;
+            background-repeat: no-repeat;
             color: #333;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            background-color: rgba(255, 255, 255, 0.8);
         }
         .heading {
             font-size: 36px;
             font-weight: 700;
             text-align: center;
             margin-bottom: 20px;
-            color: #e74c3c; /* Red color */
+            color: #e74c3c;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
         .pizza-details {
@@ -74,31 +74,29 @@
             color: red;
         }
 
-        /* Modal Styling */
         .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
+            display: none;
+            position: fixed;
+            z-index: 1;
             left: 0;
             top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
         }
 
-        /* Modal Content */
         .modal-content {
             background-color: #fefefe;
-            margin: 15% auto; /* 15% from the top and centered */
+            margin: 15% auto;
             padding: 20px;
             border: 1px solid #888;
-            width: 80%; /* Could be more or less, depending on screen size */
+            width: 80%;
             border-radius: 8px;
         }
 
-        /* Close Button */
+        
         .close {
             color: #aaa;
             float: right;
@@ -147,7 +145,7 @@
 
     <!-- Modal -->
     <div id="myModal" class="modal">
-        <!-- Modal content -->
+
         <div class="modal-content">
             <span class="close">&times;</span>
             <p id="modal-message"></p>
